@@ -1,0 +1,19 @@
+//colors
+$m-gray: #282828;
+$white: #fff;
+
+//fonts
+@font-face {
+	font-family: roboto_thin;
+	src: url('../font/roboto_thin.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: roboto_black;
+	src: url('../font/roboto_black.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: roboto_regular;
+	src: url('../font/roboto_regular.ttf') format('truetype');
+}

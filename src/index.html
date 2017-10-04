@@ -7,34 +7,40 @@
 	<meta name="keywords" content="HTML,CSS,JavaScript,Jquery">
 	<meta name="author" content="Gregory Wojda">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- build:css -->
 	<link rel="stylesheet" href="css/style.css">
+	<!-- endbuild -->
 </head>
 <body>
 	<header>
 		<nav>
 			<ul>
-				<li><a href="#">home</a></li>
-				<li><a href="#">about</a></li>
-				<li><a href="#">skills</a></li>
-				<li><a href="#">portfolio</a></li>
-				<li><a href="#">contact</a></li>
+				<li class="nav-logo"><a  href="index.html"><img src="img/logo.png"></a></li>
+				<li><a href="#home">home</a></li>
+				<li><a href="#about">about</a></li>
+				<li><a href="#skills">skills</a></li>
+				<li><a href="#portfolio">portfolio</a></li>
+				<li><a href="#contact">contact</a></li>
 			</ul>
 		</nav>
-		<img src="#" alt="">
-		<h1>Gregory Wojda</h1>
-		<h3>web designer &amp; developer</h3>
-		<div class="social-network">
-			<ul>
-				<li><a href="#"><img src="#" alt="facebook"></a></li>
-				<li><a href="#"><img src="#" alt="git"></a></li>
-				<li><a href="#"><img src="#" alt="google"></a></li>
-				<li><a href="#"><img src="#" alt="linkedin"></a></li>
-			</ul>
-		</div>
 	</header>
 	<main>
 		<article>
-			<section class="section_about">
+			<section id="home">
+				<img src="img/initials.png" alt="initials">
+				<h1>Gregory Wojda</h1>
+				<h3>web designer &amp; developer</h3>
+				<div class="social-network">
+					<ul>
+						<li><a href="https://www.facebook.com/Gri.Geo"><img class="fb" src="img/sprite_media.png" alt="facebook"></a></li>
+						<li><a href="https://github.com/GeoGri"><img class="git" src="img/sprite_media.png" alt="git"></a></li>
+						<li><a href="https://plus.google.com/u/0/108704893739736467557"><img class="g" src="img/sprite_media.png" alt="google"></a></li>
+						<li><a href="https://www.linkedin.com/in/grzegorz-wojda-673058b9/"><img class="in" src="img/sprite_media.png" alt="linkedin"></a></li>
+					</ul>
+				</div>
+				<img src="img/person.png" alt="">
+			</section>
+			<section class="section_about" id="about">
 				<h2>01 about me</h2>
 				<div class="personal_details_and_address">
 					<table>
@@ -76,15 +82,15 @@
 					<p>Single projects implemented in the course of study.</p>
 				</div>
 			</section>
-			<section class="section_skills">
+			<section class="section_skills" id="skills">
 				<h2>02 skills</h2>
 
 			</section>
-			<section class="section_portfolio">
+			<section class="section_portfolio" id="portfolio">
 				<h2>03 portfolio</h2>
 
 			</section>
-			<section class="section_contact">
+			<section class="section_contact" id="contact">
 				<h2>04 contact</h2>
 
 			</section>
@@ -94,10 +100,10 @@
 		<p>&copy; 2017 by Gregory Wojda</p>
 		<div class="social-network">
 			<ul>
-				<li><a href="#"><img src="#" alt="facebook"></a></li>
-				<li><a href="#"><img src="#" alt="git"></a></li>
-				<li><a href="#"><img src="#" alt="google"></a></li>
-				<li><a href="#"><img src="#" alt="linkedin"></a></li>
+				<li><a href="https://www.facebook.com/Gri.Geo"><img class="fb" src="img/sprite_media.png" alt="facebook"></a></li>
+				<li><a href="https://github.com/GeoGri"><img class="git" src="img/sprite_media.png" alt="git"></a></li>
+				<li><a href="https://plus.google.com/u/0/108704893739736467557"><img class="g" src="img/sprite_media.png" alt="google"></a></li>
+				<li><a hhref="https://www.linkedin.com/in/grzegorz-wojda-673058b9/"><img class="in" src="img/sprite_media.png" alt="linkedin"></a></li>
 			</ul>
 		</div>
 	</footer>

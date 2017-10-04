@@ -1,1 +1,85 @@
 @import "normalize";
+@import "config";
+
+//Global
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+main {
+	margin-top: 150px;
+
+}
+
+//Navbar
+nav ul {
+	background-color: $m-gray;
+	list-style-type: none;
+	margin: 0;
+	overflow: hidden;
+	padding: 40px 0;
+	position: fixed;
+	text-align: right;
+	top: 0;
+	width: 100%;
+	li {
+		display: inline;
+		&.nav-logo {
+			float: left;
+			a {
+				border: 0;
+				margin-left:32px;
+				padding: 0;
+				img {height: 45px;}
+			}
+		}
+		a {
+			border-right: 1px solid white;
+			color: $white;
+			font-family: roboto_thin;
+			font-size: 36px;
+			padding: 0 32px;
+			text-decoration: none;
+			text-transform: uppercase;
+		}	
+	}
+}
+
+//social-network
+div.social-network ul {
+	list-style-type: none;
+	li {display: inline-block;}
+	li a img {
+		object-fit: none;
+		height: 54px;
+		width: 54px;
+		&.fb{object-position: 0 0;}
+		&.git{object-position: -55px 0;}
+		&.g{object-position: -110px 0;}
+		&.in{object-position: -165px 0;}
+	}
+}
+
+//home
+section#home {
+	background: url("../img/home.jpg") no-repeat;
+	background-size: cover;
+	color: $white;
+	position: relative;
+	text-transform: uppercase;
+	h1 {
+		font-family: roboto_black;
+		font-size: 82px;
+		letter-spacing: 10px;
+		margin: 0;
+	}
+	h3 {font-family: roboto_regular;}
+	div.social-network + img {
+		position: absolute;
+		left: 50%;
+		bottom: -50%;
+	}
+}
